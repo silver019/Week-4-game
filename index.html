@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	<div id="title"><h1>CrystalsCollector!</h1></div>
+	<br>
+
+	<div id="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+
+		<p>There are four crystals below. By clicking on a crystal you will add a specific
+		amount of points to your total score.</p>
+
+		<p>You win the game by matching your total score to random number, you lose the game
+		if your total score goes above the random number.</p>
+
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+
+		<p>Each time the game starts, the game will change the values of each crystal.</p>
+
+	</div>
+	<br>
+
+	<div id="randomNum">0</div>
+
+	<div id="scoreboard">
+		Wins:
+		<br>
+		Losses:
+	</div>
+	<br>
+
+	<div id="crystals"><img src="./assets/images/ruby.png" alt="Ruby" id="ruby" height="100px" width="80px">
+	<img src="./assets/images/sapphire.png" alt="Sapphire" id="sapphire" height="100px" width="80px">
+	<img src="./assets/images/emerald.jpg" alt="Emerald" id="emerald" height="100px" width="80px">
+	<img src="./assets/images/yellowcrystal.jpg" alt="Yellow Crystal" id="yellowE" height="100px" width="80px">
+	</div>
+	<br>
+
+	<div class="score">Your total score is:</div>
+	<br>
+
+	<div class="score" id="score">0</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</body>
+</html>

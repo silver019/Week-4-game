@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+}
+
+#randomNum {
+	margin: 10px 1400px 50px 0px;
+	background-color: green;
+	padding-left: 20px;
+}
+
+#scoreboard {
+	margin: 100px 100px 100px 100px;
+}
+
+#score {
+	margin: 100px 100px 100px 100px;
+}
+
+.score {
+	background-color: lightblue;
+	margin-right: 1400px;
+}
+
+#title {
+	background-color: orange;
+	margin-right: 1300px;
+}
+
+#instructions {
+	background-color: pink;
+	margin-right: 1200px
+}
